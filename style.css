@@ -309,6 +309,7 @@ form>input,button {
 }
 
 input[type=text], input[type=email], textarea {
+  padding-left: 15px;
   font-size: 18px;
   font-family: Oswald, sans-serif;
   border-radius: 5px;
@@ -318,16 +319,23 @@ input[type=text], input[type=email], textarea {
   border: 6px solid #202020;
   border-radius: 5px;
   background-color: #202020;
+  transition: width 0.4s ease-in-out;
 }
 
 textarea {
   margin: 15px 0 10px 7px;
 }
 
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  width: 60%;
+  border: 2px solid #ae6e1f;
+  outline: none;
+}
+
 .btn-contact {
   padding: 5px 15px 5px 15px;
   cursor: pointer;
-  width: 258px;
+  width: 330px;
   height: 35px;
   margin-left: 8px;
   font-family: Nordica, sans-serif;

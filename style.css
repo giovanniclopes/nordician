@@ -1,4 +1,8 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+
 @font-face {
     font-family: 'Mjolnir';
     src: url(Mjölnir/Mjolnir.otf) format('opentype');
@@ -290,34 +294,49 @@ hr {
   border: 1px solid #ae6e1f;
   width: 70px;
 }
+
+form>p {
+  font-family: Oswald, sans-serif;
+  margin: auto;
+  padding-top: 10px;
+  position: relative;
+  right: 125px;
+  top: 20px;
+}
+
 form>input,button {
   margin: 10px 0 0 7px;
 }
 
-input[type=text], input[type=email] {
+input[type=text], input[type=email], textarea {
   font-size: 18px;
+  font-family: Oswald, sans-serif;
   border-radius: 5px;
-  width: 250px;
+  width: 300px;
   height: 30px;
   color: #d3cac0;
-  border: 2px solid #ae6e1f;
+  border: 6px solid #202020;
   border-radius: 5px;
   background-color: #202020;
 }
 
+textarea {
+  margin: 15px 0 10px 7px;
+}
+
 .btn-contact {
   padding: 5px 15px 5px 15px;
-  cursor: help;
+  cursor: pointer;
   width: 258px;
   height: 35px;
-  margin-left: 63px;
+  margin-left: 8px;
   font-family: Nordica, sans-serif;
   font-size: 20px;
   font-weight: bolder;
-  color: #202020;
-  border: 2px solid #202020;
+  color: #ae6e1f;
+  border: 2px solid #ae6e1f;
   border-radius: 5px;
-  background-color: #ae6e1f;
+  background-color: transparent;
 }
 .btn-contact:hover {
   filter: brightness(60%);

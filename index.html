@@ -102,11 +102,16 @@
     <p>Entre em contato</p>
     <hr>
     <form action="https://formsubmit.co/giovanniclopes@gmail.com" method="POST">
-        Nome:<input type="text" name="name" required>
+        <p class="form-label">Nome:</p><br>
+        <input type="text" name="name" placeholder="nome" required>
         <br>
-        Email:<input type="email" name="email" required>
+        <p class="form-label">Email:</p><br>
+        <input type="email" name="email" placeholder="email" required>
         <br>
+        <textarea placeholder="Sua mensagem" name="messag" rows="10" required></textarea><br>
         <button type="sumbit" class="btn-contact">Enviar</button>
+        <input type="hidden" name="_next" value="https://giovanniclopes.github.io/thanks.html">
+        <input type="hidden" name="_template" value="table">
     </form>
 </div>
 

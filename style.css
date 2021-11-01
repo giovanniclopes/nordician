@@ -427,9 +427,8 @@ p.thanks-text {
 
 .ps4-games {
   background-color: #202020;
-  width: 380px;
+  width: 365px;
   height: fit-content;
-  margin: 10px;
   border-radius: 20px;
   text-align: center;
   font-family: Nordica, sans-serif;
@@ -479,9 +478,8 @@ p.thanks-text {
 
 .xbox-games {
   background-color: #202020;
-  width: 380px;
+  width: 365px;
   height: fit-content;
-  margin: 10px;
   border-radius: 20px;
   text-align: center;
   font-family: Nordica, sans-serif;

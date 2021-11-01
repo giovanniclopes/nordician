@@ -422,6 +422,8 @@ p.thanks-text {
   .games-blocks {
     display: inline-block;
     margin-left: 10px;
+    margin-bottom: 100px;
+
   }
 }
 

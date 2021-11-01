@@ -492,7 +492,6 @@ p.thanks-text {
 @media only screen and (max-width: 600px) {
   .xbox-games {
     height: 410px;
-    transition: width 0.4s ease-in-out;
   }
 }
 

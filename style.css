@@ -167,7 +167,6 @@ img {
 }
 
 img:hover {
-    background-color: black;
     filter: saturate(140%) sepia(40%);
     transition: 0.4s ease-in-out;
 }
@@ -401,4 +400,105 @@ p.thanks-text {
 
 .thanks-btn:hover {
   filter: brightness(60%);
+}
+
+/* games page */
+
+.main-section-games {
+  display: grid;
+  background: url(bc-games-section.png) center;
+  height: 450px;
+  box-sizing:border-box;
+  opacity: 100%;
+  text-align: center;
+}
+
+.games-blocks {
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .games-blocks {
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+
+.ps4-games {
+  background-color: #202020;
+  width: 400px;
+  height: fit-content;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Nordica, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .ps4-games {
+    height: 410px;
+  }
+}
+
+.ps4-image {
+  border: none;
+  margin-left: 9px;
+  margin-bottom: 0;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+.ps4-btn, .xbox-btn {
+  margin-top: 0;
+  padding: 10px 15px 33px 15px;
+  cursor: pointer;
+  width: 258px;
+  height: 35px;
+  font-family: Nordica, sans-serif;
+  font-size: 23px;
+  font-weight: bolder;
+  color: #202020;
+  border: 2px solid #202020;
+  border-radius: 10px;
+  background-color: #ae6e1f;
+}
+
+.ps4-btn:hover, .xbox-btn:hover {
+  filter: brightness(70%);
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .ps4-btn, .xbox-btn {
+    padding: 15px 20px 38px 20px;
+  }
+}
+
+.xbox-games {
+  background-color: #202020;
+  width: 400px;
+  height: fit-content;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Nordica, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .xbox-games {
+    height: 410px;
+  }
+}
+
+.xbox-image {
+  border: none;
+  margin-left: 9px;
+  margin-bottom: 0;
+  border-radius: 20px;
+  padding-top: 30px;
 }

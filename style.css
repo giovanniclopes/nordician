@@ -439,10 +439,12 @@ p.thanks-text {
 @media only screen and (max-width: 600px) {
   .ps4-games {
     height: 410px;
+    width: 365px;
   }
 }
 
 .ps4-image {
+  width: fit-content;
   border: none;
   margin-left: 9px;
   margin-bottom: 0;
@@ -489,11 +491,13 @@ p.thanks-text {
 
 @media only screen and (max-width: 600px) {
   .xbox-games {
+    width: 365px;
     height: 410px;
   }
 }
 
 .xbox-image {
+  width: fit-content;
   border: none;
   margin-left: 9px;
   margin-bottom: 0;

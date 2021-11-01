@@ -427,8 +427,9 @@ p.thanks-text {
 
 .ps4-games {
   background-color: #202020;
-  width: 365px;
+  width: 400px;
   height: fit-content;
+  margin: 10px;
   border-radius: 20px;
   text-align: center;
   font-family: Nordica, sans-serif;
@@ -439,12 +440,10 @@ p.thanks-text {
 @media only screen and (max-width: 600px) {
   .ps4-games {
     height: 410px;
-    width: 365px;
   }
 }
 
 .ps4-image {
-  width: fit-content;
   border: none;
   margin-left: 9px;
   margin-bottom: 0;
@@ -480,8 +479,9 @@ p.thanks-text {
 
 .xbox-games {
   background-color: #202020;
-  width: 365px;
+  width: 400px;
   height: fit-content;
+  margin: 10px;
   border-radius: 20px;
   text-align: center;
   font-family: Nordica, sans-serif;
@@ -491,13 +491,12 @@ p.thanks-text {
 
 @media only screen and (max-width: 600px) {
   .xbox-games {
-    width: 365px;
     height: 410px;
+    transition: width 0.4s ease-in-out;
   }
 }
 
 .xbox-image {
-  width: fit-content;
   border: none;
   margin-left: 9px;
   margin-bottom: 0;

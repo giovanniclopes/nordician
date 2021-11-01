@@ -357,3 +357,40 @@ ul.articles-list>li>a {
 ul.articles-list>li>a:hover {
     color: #cfb87b;
 }
+
+/* thanks form page */
+
+section.thanks-section {
+  height: max-content;
+  box-sizing:border-box;
+  opacity: 100%;
+  text-align: center;
+}
+
+p.thanks-text {
+  border-top: 3px solid #d8cbbb;
+  color: #d8cbbb;
+  font-family: Nordica, sans-serif;
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+.thanks-btn {
+  padding: 20px 15px 44px 15px;
+  cursor: pointer;
+  width: 258px;
+  height: 35px;
+  font-family: Nordica, sans-serif;
+  font-size: 23px;
+  font-weight: bolder;
+  color: #202020;
+  border: 2px solid #202020;
+  border-radius: 5px;
+  background-color: #ae6e1f;
+}
+
+.thanks-btn:hover {
+  filter: brightness(60%);
+}

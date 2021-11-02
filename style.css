@@ -469,13 +469,13 @@ p.thanks-text {
   background-color: #ae6e1f;
 }
 
-.ps4-btn:hover, .xbox-btn:hover {
+.ps4-btn:hover, .xbox-btn:hover, .pc-btn:hover {
   filter: brightness(70%);
   border: none;
 }
 
 @media only screen and (max-width: 600px) {
-  .ps4-btn, .xbox-btn {
+  .ps4-btn, .xbox-btn, .pc-btn {
     padding: 15px 20px 38px 20px;
   }
 }

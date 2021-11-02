@@ -430,7 +430,7 @@ p.thanks-text {
 .ps4-games {
   background-color: #202020;
   width: 380px;
-  height: fit-content;
+  height: 430px;
   margin: 10px;
   border-radius: 20px;
   text-align: center;
@@ -483,7 +483,7 @@ p.thanks-text {
 .xbox-games {
   background-color: #202020;
   width: 380px;
-  height: fit-content;
+  height: 430px;
   margin: 10px;
   border-radius: 20px;
   text-align: center;
@@ -510,7 +510,7 @@ p.thanks-text {
 .pc-games {
   background-color: #202020;
   width: 380px;
-  height: fit-content;
+  height: 430px;
   margin: 10px;
   border-radius: 20px;
   text-align: center;

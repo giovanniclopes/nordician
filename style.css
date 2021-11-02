@@ -415,7 +415,7 @@ p.thanks-text {
 
 .games-blocks {
   display: inline-flex;
-  margin-top: 30px;
+  margin: 30px 20px 30px 45px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -454,7 +454,7 @@ p.thanks-text {
   padding-top: 30px;
 }
 
-.ps4-btn, .xbox-btn {
+.ps4-btn, .xbox-btn, .pc-btn {
   margin-top: 0;
   padding: 10px 15px 33px 15px;
   cursor: pointer;
@@ -499,6 +499,33 @@ p.thanks-text {
 }
 
 .xbox-image {
+  width: 360px;
+  border: none;
+  margin-left: 9px;
+  margin-bottom: 0;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+.pc-games {
+  background-color: #202020;
+  width: 380px;
+  height: fit-content;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Nordica, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .pc-games {
+    height: 410px;
+  }
+}
+
+.pc-image {
   width: 360px;
   border: none;
   margin-left: 9px;

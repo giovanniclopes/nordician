@@ -195,7 +195,7 @@ section.main-section {
     position: relative;
     bottom: 110px;
     display: grid;
-    background-image: url(main-image2.png);
+    background-image: url(div-image1.png);
     height: 630px;
     box-sizing:border-box;
     opacity: 100%;
@@ -242,6 +242,7 @@ div.games {
 }
 
 div.games> p {
+  font-weight: normal;
   font-size: 20px;
   width: 300px;
 }
@@ -265,6 +266,7 @@ div.games>a> button:hover {
 }
 
 div.games2>img {
+  margin-left: 200px;
   border: none;
   width: 350px;
   margin-top: 1px;

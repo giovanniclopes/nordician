@@ -35,8 +35,22 @@ html, body {
     text-align: center;
 }
 
+#logo-menu {
+  border: none;
+  float: left;
+  width: 160px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo-menu {
+    display: none;
+  } 
+}
+
 .nav-menu a {
-    float: left;
+    cursor: pointer;
+    float: right;
     color: #dae4e2;
     text-align: center;
     padding: 20px;
@@ -45,22 +59,18 @@ html, body {
 
 .nav-menu a:hover {
     transition: all 0.2s ease-in-out;
-    color:#ae6e1f;
+    color: #b60000;
 }
 
 #checked {
-    color: #e1b64d;
+    color: #ee0000;
+    font-size: 17px;
     padding: 16px 16px;
 }
 
 #checked:hover {
-    color: #ae6e1f;
+    filter: brightness(95%);
 }
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-  }
   
   .dropdown {   
     padding: 15px;
@@ -72,9 +82,12 @@ html, body {
     font-family: Mjolnir, Arial, sans-serif;
     font-size: 16px;
     margin: 0;
+    float: right;
+    overflow: hidden;
   }
 
   .dropbtn {
+    cursor: pointer;
     margin-bottom: 110px;
     text-align: center;
     border: none;
@@ -106,12 +119,6 @@ html, body {
     display: block;
   }
 
-
-  .dropdown2 {
-    float: left;
-    overflow: hidden;
-  }
-  
   .dropdown2 {   
     padding: 15px;
     margin-bottom: 110px;
@@ -122,9 +129,12 @@ html, body {
     font-family: Mjolnir, Arial, sans-serif;
     font-size: 16px;
     margin: 0;
+    float: right;
+    overflow: hidden;
   }
 
   .dropbtn2 {
+    cursor: pointer;
     margin-bottom: 110px;
     text-align: center;
     border: none;
@@ -224,19 +234,20 @@ div.games> p {
 }
 
 div.games>a> button {
-  padding: 5px 15px 5px 15px;
-  cursor: help;
+  padding: 10px 15px 33px 15px;
+  cursor: pointer;
   width: 258px;
   height: 35px;
   font-family: Nordica, sans-serif;
   font-size: 20px;
   font-weight: bolder;
-  color: #202020;
+  color: rgb(160, 160, 160);
   border: 2px solid #202020;
-  border-radius: 5px;
-  background-color: #ae6e1f;
+  border-radius: 10px;
+  background-color: #b60000;
 }
-div.games>button:hover {
+
+div.games>a> button:hover {
   filter: brightness(60%);
 }
 
@@ -276,7 +287,7 @@ ul {
 /* contact form */
 
 .contact {
-  border-top: 3px solid #ae6e1f;
+  border-top: 3px solid #b60000;
   background-image: url(bc-contact-index.png);
   background-attachment: scroll;
   background-position: center;
@@ -290,7 +301,8 @@ ul {
 }
 
 hr {
-  border: 1px solid #ae6e1f;
+  border: 1px solid #b60000
+  ;
   width: 70px;
 }
 
@@ -340,8 +352,8 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
   font-family: Nordica, sans-serif;
   font-size: 20px;
   font-weight: bolder;
-  color: #ae6e1f;
-  border: 2px solid #ae6e1f;
+  color: #b60000;
+  border: 2px solid #b60000;
   border-radius: 5px;
   background-color: transparent;
 }
@@ -352,7 +364,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 /* article pages style */
 
 ul.articles-list>li>a {
-    color: #b8ad94;
+    color: #e7d4d4;
     font-size: 20px;
     list-style: circle;
     padding: 20px 0 20px 5px;
@@ -362,7 +374,7 @@ ul.articles-list>li>a {
 }
 
 ul.articles-list>li>a:hover {
-    color: #cfb87b;
+    color: #b64141;
 }
 
 /* thanks form page */
@@ -395,7 +407,7 @@ p.thanks-text {
   color: #202020;
   border: 2px solid #202020;
   border-radius: 5px;
-  background-color: #ae6e1f;
+  background-color: #b60000;
 }
 
 .thanks-btn:hover {
@@ -461,12 +473,12 @@ p.thanks-text {
   width: 258px;
   height: 35px;
   font-family: Nordica, sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bolder;
-  color: #202020;
+  color: rgb(160, 160, 160);
   border: 2px solid #202020;
   border-radius: 10px;
-  background-color: #ae6e1f;
+  background-color: #b60000;
 }
 
 .ps4-btn:hover, .xbox-btn:hover, .pc-btn:hover {

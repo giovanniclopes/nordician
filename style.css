@@ -28,17 +28,26 @@ html, body {
 }
 
 .nav-menu {
-    background-color: rgb(10, 10, 10);
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
     top: 0;
     overflow: hidden;
-    padding: 15px;
+    padding: 24px 35px 24px 24px;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-menu {
+    padding: 20px;
+  } 
 }
 
 #logo-menu {
   border: none;
   float: left;
-  width: 160px;
+  padding-left: 15px;
+  width: 60px;
   margin: 0;
 }
 
@@ -182,15 +191,19 @@ img:hover {
 }
 
 section.main-section {
+    z-index: 0;
+    position: relative;
+    bottom: 110px;
     display: grid;
     background-image: url(main-image2.png);
-    height: 450px;
+    height: 630px;
     box-sizing:border-box;
     opacity: 100%;
     text-align: center;
 }
 
 h1.main-text {
+    margin-top: 190px;
     font-size: 70px;
     font-family: Nordica;
     color: #dfc8ac;
@@ -291,7 +304,7 @@ ul {
   background-image: url(bc-contact-index.png);
   background-attachment: scroll;
   background-position: center;
-  padding: 50px 0 60px 0;
+  padding: 50px 0 90px 0;
   text-align: center;
   font-size: 18px;
 }
@@ -338,9 +351,12 @@ textarea {
 }
 
 input[type=text]:focus, input[type=email]:focus, textarea:focus {
-  width: 60%;
-  border: 2px solid #ae6e1f;
-  outline: none;
+  background-color: #202020;
+  width: 320px;
+  height: 30px;
+  border: 6px solid #202020;
+  outline: 2px solid #b60000;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-contact {

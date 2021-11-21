@@ -18,7 +18,7 @@ function myFunction() {
     }
   }
   
-  window.onclick2 = function(e) {
+  window.onclick = function(e) {
     if (!e.target.matches('.dropbtn2')) {
     var myDropdown2 = document.getElementById("myDropdown2");
       if (myDropdown2.classList.contains('show2')) {

@@ -232,6 +232,7 @@ div.div-games {
 }
 
 div.games {
+  text-align: center;
   font-family: Nordica;
   font-size: 35px;
   margin: 20px 10px 60px 20px;
@@ -240,7 +241,7 @@ div.games {
 @media only screen and (max-width: 600px) {
   div.games {
     position: relative;
-    right: 102px;
+    right: 130px;
     bottom: 90px
   }
 }
@@ -278,8 +279,7 @@ div.games2>img {
 
 @media only screen and (max-width: 600px) {
   div.games2>img {
-    width: 100%;
-    margin-top: 140px;
+    display: none;
   }
 }
 

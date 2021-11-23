@@ -221,6 +221,12 @@ h1.main-text {
     color: #dfc8ac;
 }
 
+@media only screen and (max-width: 600px) {
+  h1.main-text {
+    font-size: 60px;
+  }
+}
+
 div.main-text, p.main-text1 {
     position: relative;
     bottom: 120px;
@@ -383,7 +389,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
   font-family: Nordica, sans-serif;
   font-size: 20px;
   font-weight: bolder;
-  color: #b60000;
+  color: #960000;
   border: 2px solid #b60000;
   border-radius: 5px;
   background-color: transparent;

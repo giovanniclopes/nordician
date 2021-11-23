@@ -421,17 +421,23 @@ ul.articles-list>li>a:hover {
 /* thanks form page */
 
 section.thanks-section {
-  height: max-content;
-  box-sizing:border-box;
+  height: auto;
   opacity: 100%;
   text-align: center;
 }
 
+section.thanks-section>h1 {
+  margin: auto;
+  padding-top: 85px;
+  font: bold 80px 'Nordica',sans-serif;
+  color: #d8cbbb;
+}
+
+
 p.thanks-text {
   border-top: 3px solid #d8cbbb;
   color: #d8cbbb;
-  font-family: Nordica, sans-serif;
-  font-size: 35px;
+  font: 300 35px 'Nordica',sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   padding: 15px;
@@ -442,10 +448,9 @@ p.thanks-text {
   cursor: pointer;
   width: 258px;
   height: 35px;
-  font-family: Nordica, sans-serif;
-  font-size: 23px;
+  font: normal 25px 'Nordica',sans-serif;
   font-weight: bolder;
-  color: #202020;
+  color: #d8cbbb;
   border: 2px solid #202020;
   border-radius: 5px;
   background-color: #b60000;

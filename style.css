@@ -406,6 +406,13 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
   border: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .post-img {
+    margin: 100px auto 10px 15px;
+    width: 90%;
+  }
+}
+
 #div-list {
   margin-top: 100px;
 }

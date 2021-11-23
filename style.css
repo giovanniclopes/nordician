@@ -458,10 +458,9 @@ p.thanks-text {
 
 @media only screen and (max-width: 600px) {
   .main-section-games {
-    width: 400px;
+    width: 500px;
   }
 }
-
 
 .games-blocks {
   display: inline-flex;
@@ -489,6 +488,7 @@ p.thanks-text {
 
 @media only screen and (max-width: 600px) {
   .ps4-games {
+    width: 370px;
     height: 410px;
   }
 }
@@ -540,6 +540,7 @@ p.thanks-text {
 
 @media only screen and (max-width: 600px) {
   .xbox-games {
+    width: 370px;
     height: 410px;
   }
 }
@@ -565,6 +566,7 @@ p.thanks-text {
 
 @media only screen and (max-width: 600px) {
   .pc-games {
+    width: 370px;
     height: 410px;
   }
 }

@@ -451,11 +451,17 @@ p.thanks-text {
   position: relative;
   bottom: 240px;
   background: url(bc-games-section.png) center;
-  width: 100%;
   height: 600px;
   opacity: 100%;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .main-section-games {
+    width: 600px;
+  }
+}
+
 
 .games-blocks {
   display: inline-flex;
@@ -467,7 +473,6 @@ p.thanks-text {
     display: inline-block;
     margin-left: 2px;
     margin-bottom: 100px;
-
   }
 }
 

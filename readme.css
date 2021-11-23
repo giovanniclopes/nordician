@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Mjolnir';
+    src: url(Mjölnir/Mjolnir.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Nordica';
+    src: url(linotype-nordica/linotypenordica-regular.ttf) format('truetype');
+}
+
+html, body {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    font: bold 25px 'Nordica', sans-serif;
+    }

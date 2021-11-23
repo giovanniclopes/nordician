@@ -451,6 +451,7 @@ p.thanks-text {
   position: relative;
   bottom: 240px;
   background: url(bc-games-section.png) center;
+  width: auto;
   height: 600px;
   opacity: 100%;
   text-align: center;

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="readme.css">
 
-<div style="text-align: center; font-family: 'Nordica',sans-serif">
+<div>
 <img src="viking-ico.png" id="logo-menu" alt="Logo Nordician">
 <h1><strong>Nordician</strong></h1>
 </div>

@@ -458,7 +458,7 @@ p.thanks-text {
 
 @media only screen and (max-width: 600px) {
   .main-section-games {
-    width: 600px;
+    width: 300px;
   }
 }
 

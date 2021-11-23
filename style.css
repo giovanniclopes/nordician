@@ -485,7 +485,7 @@ p.thanks-text {
 @media only screen and (max-width: 600px) {
   .games-blocks {
     display: inline-block;
-    margin:-200px 20px 30px 20px;
+    margin:-200px 25px 30px 20px;
   }
 }
 

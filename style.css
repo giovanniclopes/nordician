@@ -82,7 +82,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
   #checked {
-    display: none;
+    display: block;
   }
 }
 
@@ -448,17 +448,17 @@ p.thanks-text {
 /* games page */
 
 .main-section-games {
-  display: grid;
+  position: relative;
+  bottom: 240px;
   background: url(bc-games-section.png) center;
-  height: 450px;
-  box-sizing:border-box;
+  height: 600px;
   opacity: 100%;
   text-align: center;
 }
 
 .games-blocks {
   display: inline-flex;
-  margin: 30px 20px 30px 45px;
+  margin:-200px 20px 30px 45px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -491,8 +491,6 @@ p.thanks-text {
 .ps4-image {
   width: 360px;
   border: none;
-  margin-left: 9px;
-  margin-bottom: 0;
   border-radius: 20px;
   padding-top: 30px;
 }
@@ -544,8 +542,6 @@ p.thanks-text {
 .xbox-image {
   width: 360px;
   border: none;
-  margin-left: 9px;
-  margin-bottom: 0;
   border-radius: 20px;
   padding-top: 30px;
 }
@@ -571,8 +567,6 @@ p.thanks-text {
 .pc-image {
   width: 360px;
   border: none;
-  margin-left: 9px;
-  margin-bottom: 0;
   border-radius: 20px;
   padding-top: 30px;
 }

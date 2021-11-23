@@ -51,7 +51,6 @@ nav {
   float: left;
   padding-left: 15px;
   width: 60px;
-  margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -393,6 +392,10 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 /* article pages style */
+
+#div-list {
+  margin-top: 100px;
+}
 
 ul.articles-list>li>a {
     color: #e7d4d4;

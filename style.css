@@ -402,8 +402,9 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 
 .post-img {
   width: 50%;
-  margin: 100px auto 10px 350px;
+  margin: 100px auto 10px 170px;
   border: none;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 600px) {

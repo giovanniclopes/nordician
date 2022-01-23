@@ -1,0 +1,556 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+
+@font-face {
+    font-family: 'Mjolnir';
+    src: url(Mjölnir/Mjolnir.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Nordica';
+    src: url(linotype-nordica/linotypenordica-regular.ttf) format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding:0;
+    background: url(bc-viking.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Mjolnir, Arial, sans-serif;
+    font-weight: bold;
+    color: #fcf7f1;
+}
+
+ /*menu*/
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, .10);
+    border-radius: 10px;
+}
+
+#logo-image {
+    width: 90px;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right,#1D0F00, #131313);
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+#menu a {
+    display: block;
+    padding: 15px;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #logo-image {
+        width: 70px;
+    }    
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 88px;
+        right: 0px;
+        background: #131313;
+        border-radius: 5px;
+        transition: .6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu {
+        height: calc(100vh - 50vh);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 20px 0;
+        margin: 0 20px;
+        border-bottom: 2px solid rgba(0, 0, 0, .10);
+    }
+    #btn-mobile {
+        color: #fcf7f1;
+        display: flex;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 10px;
+    }
+    #hamburguer {
+        color: #fcf7f1;
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
+
+ /*end menu*/
+
+section.main-section {
+    top: 0;
+    z-index: 0;
+    background-image: url(div-image1.png);
+    height: 630px;
+    box-sizing:border-box;
+    opacity: 100%;
+    text-align: center;
+}
+
+h1.main-text {
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    margin-top: 190px;
+    font-size: 70px;
+    font-family: Nordica;
+    text-align: center;
+    color: #dfc8ac;
+}
+
+@media only screen and (max-width: 600px) {
+    section.main-section {
+        top: 0;
+        z-index: 0;
+        background-image: url(div-image1.png);
+        height: 500px;
+        box-sizing:border-box;
+        opacity: 100%;
+        text-align: center;
+    }
+    
+    h1.main-text {
+        font-size: 55px;
+        top: 40px;
+        left: 0;
+    }
+}
+
+div.main-text, p.main-text1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    font-family: Nordica;
+    font-size: 25px;
+    line-height: 45px;
+    word-spacing: 5px;
+    font-weight: 200;
+    color: #d8cbbb;
+}
+
+div.div-games {
+  display: flex;
+  margin: 100px 10px auto 150px;
+  align-items: center;
+  
+}
+
+div.games {
+  text-align: center;
+  font-family: Nordica;
+  font-size: 35px;
+  margin: 20px 10px 60px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.games {
+    position: relative;
+    right: 130px;
+    bottom: 90px
+  }
+}
+
+div.games> p {
+  font-weight: normal;
+  font-size: 20px;
+  width: 300px;
+}
+
+div.games>a> button {
+  padding: 10px 15px 33px 15px;
+  cursor: pointer;
+  width: 258px;
+  height: 35px;
+  font-family: Nordica, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(207, 207, 207);
+  border: 2px solid #202020;
+  border-radius: 10px;
+  background-color: #b60000;
+}
+
+div.games>a> button:hover {
+  filter: brightness(60%);
+}
+
+div.games2>img {
+  margin-left: 200px;
+  border: none;
+  width: 350px;
+  margin-top: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.games2>img {
+    display: none;
+  }
+}
+
+section#primeiros-textos {
+    margin: auto 10px auto 10px;
+    word-spacing: 7px;
+    text-align: center;
+    color: #b8ad94;
+    font-family: Nordica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    padding-bottom: 50px;
+}
+
+section#primeiros-textos>h1 {
+    font-size: 50px;
+    color: #e1b64d;
+}
+
+ul {
+    list-style: none;
+}
+
+/* contact form */
+
+.contact {
+  border-top: 3px solid #b60000;
+  background-image: url(bc-contact-index.png);
+  background-attachment: scroll;
+  background-position: center;
+  padding: 50px 0 90px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact > p {
+  font-size: 16px;
+}
+
+hr {
+  border: 1px solid #b60000
+  ;
+  width: 70px;
+}
+
+form>p {
+  font-family: Oswald, sans-serif;
+  margin: auto;
+  padding-top: 10px;
+  position: relative;
+  right: 125px;
+  top: 20px;
+}
+
+form>input,button {
+  margin: 10px 0 0 7px;
+}
+
+input[type=text], input[type=email], textarea {
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: Oswald, sans-serif;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  color: #d3cac0;
+  border: 6px solid #202020;
+  border-radius: 5px;
+  background-color: #202020;
+  transition: width 0.4s ease-in-out;
+}
+
+textarea {
+  margin: 15px 0 10px 7px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  background-color: #202020;
+  width: 320px;
+  height: 30px;
+  border: 6px solid #202020;
+  outline: 2px solid #b60000;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-contact {
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+  width: 330px;
+  height: 35px;
+  margin-left: 8px;
+  font-family: Nordica, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #960000;
+  border: 2px solid #b60000;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.btn-contact:hover {
+  filter: brightness(60%);
+}
+
+/* article pages style */
+
+.post-img {
+  width: 50%;
+  margin: 100px auto 10px 170px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .post-img {
+    margin: 100px auto 10px 15px;
+    width: 90%;
+  }
+}
+
+#div-list {
+  margin-top: 100px;
+}
+
+ul.articles-list>li>a {
+    color: #e7d4d4;
+    font-size: 20px;
+    list-style: circle;
+    padding: 20px 0 20px 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    text-decoration: 1px underline;
+}
+
+ul.articles-list>li>a:hover {
+    color: #b64141;
+}
+
+/* thanks form page */
+
+section.thanks-section {
+  height: auto;
+  opacity: 100%;
+  text-align: center;
+}
+
+section.thanks-section>h1 {
+  margin: auto;
+  padding-top: 85px;
+  font: bold 80px 'Nordica',sans-serif;
+  color: #d8cbbb;
+}
+
+
+p.thanks-text {
+  border-top: 3px solid #d8cbbb;
+  color: #d8cbbb;
+  font: 300 35px 'Nordica',sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+.thanks-btn {
+  padding: 20px 15px 44px 15px;
+  cursor: pointer;
+  width: 258px;
+  height: 35px;
+  font: normal 25px 'Nordica',sans-serif;
+  font-weight: bolder;
+  color: #d8cbbb;
+  border: 2px solid #202020;
+  border-radius: 5px;
+  background-color: #b60000;
+}
+
+.thanks-btn:hover {
+  filter: brightness(60%);
+}
+
+/* games page */
+
+.main-section-games {
+  position: relative;
+  bottom: 240px;
+  background: url(bc-games-section.png) center;
+  height: 600px;
+  opacity: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-section-games {
+    width: auto;
+  }
+}
+
+.games-blocks {
+  display: inline-flex;
+  margin:-200px 20px 30px 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  .games-blocks {
+    display: inline-block;
+    margin:-200px 0px 30px 10px;
+  }
+}
+
+.ps4-games {
+  background-color: #202020;
+  width: 380px;
+  height: 430px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Nordica, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .ps4-games {
+    width: 370px;
+    height: 410px;
+  }
+}
+
+.ps4-image {
+  width: 360px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+.ps4-btn, .xbox-btn, .pc-btn {
+  margin-top: 0;
+  padding: 10px 15px 33px 15px;
+  cursor: pointer;
+  width: 258px;
+  height: 35px;
+  font-family: Nordica, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(160, 160, 160);
+  border: 2px solid #202020;
+  border-radius: 10px;
+  background-color: #b60000;
+}
+
+.ps4-btn:hover, .xbox-btn:hover, .pc-btn:hover {
+  filter: brightness(70%);
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .ps4-btn, .xbox-btn, .pc-btn {
+    padding: 15px 20px 38px 20px;
+  }
+}
+
+.xbox-games {
+  background-color: #202020;
+  width: 380px;
+  height: 430px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Nordica, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .xbox-games {
+    width: 370px;
+    height: 410px;
+  }
+}
+
+.xbox-image {
+  width: 360px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+.pc-games {
+  background-color: #202020;
+  width: 380px;
+  height: 430px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Nordica, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .pc-games {
+    width: 370px;
+    height: 410px;
+  }
+}
+
+.pc-image {
+  width: 360px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 30px;
+}

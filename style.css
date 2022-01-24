@@ -473,19 +473,31 @@ p.thanks-text {
   text-align: center;
 }
 
-.main-text {
-  font-size: 75px;
+.main-text-game {
+  font: normal 110px 'Nordica', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-text-game {
+    padding-top: 100px;
+    font: normal 80px 'Nordica', sans-serif;  
+  }
 }
 
 .games-blocks {
   display: inline-flex;
   margin:-200px 20px 30px 45px;
+  align-items: center;
+  justify-content: center;
+
 }
 
 @media only screen and (max-width: 600px) {
   .games-blocks {
     display: inline-block;
-    margin:-290px 0px 30px 10px;
+    align-items: center;
+    justify-content: center;
+  
   }
 }
 
@@ -591,4 +603,17 @@ p.thanks-text {
   border: none;
   border-radius: 20px;
   padding-top: 30px;
+}
+
+/* footer */
+
+#footer {
+  border-top: 3px solid #D42221;
+  background-color: #020303;
+}
+
+.copyright {
+  padding: 15px;
+  text-align: center;
+  font: normal 25px 'Nordica', sans-serif;
 }

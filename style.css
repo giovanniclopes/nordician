@@ -499,7 +499,7 @@ p.thanks-text {
     display: inline-block;
     align-items: center;
     justify-content: center;
-    margin:-200px 20px 30px 27px;  
+    margin:-200px auto 30px auto;  
   }
 }
 

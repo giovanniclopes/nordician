@@ -5,77 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nordician - Venha ser um Viking!</title>
-    <meta name="description" content="Sinta o Viking em sua 𝐡𝐮𝐠𝐫. Aprenda sobre a cultura nórdica e toda sua mitologia!">
+    <meta name="description" content="Sinta o Viking em sua hugr. Aprenda sobre a cultura nórdica e toda sua mitologia!">
     <meta name="author" content="Giovanni Lopes">
     <meta name="robots" content="index, follow">
     <meta name="rating" content="general">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="viking-ico.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
+    
 </head>
 
 <body>
+    <!--header menu-->
+    <header id="header">
+        <a href="" id="logo">
+            <img src="nordician-logo1.png" id="logo-image" alt="Logo Nordician">
+        </a>
+        <nav id="nav">
+            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
 
-    
-    <nav>
-        <div class="nav-menu">
-    
-            <img src="viking-ico.png" id="logo-menu" alt="Logo do nav-menu">
-    
-            <a href="index.html" id="checked">
-                Home
-            </a>
-            
-            <div class="dropdown2">
-                <button class="dropbtn2" onclick="myFunction2()">Realidade
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                  <div class="dropdown-conteudo2" id="myDropdown2">
-                      
-                    <a href="places.html">
-                        Lugares
-                    </a>
-                    <a href="professions.html">
-                        Profissões
-                    </a>
-                    <a href="people.html">
-                        Pessoas
-                    </a>
-                    <a href="realcurios.html">
-                        Curiosidades
-                    </a>
-        
-                  </div>
-            </div>
-    
-    
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunction()">Mitologia
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                         <div class="dropdown-conteudo" id="myDropdown">
-                          
-                        <a href="kingdoms.html">
-                            Reinos
-                        </a>
-                        <a href="beings.html">
-                            Seres
-                        </a>
-                        <a href="gods.html">
-                            Deuses
-                        </a>
-                        <a href="mythcurios.html">
-                            Curiosidades
-                        </a>
-            
-                        </div>
-                </div> 
-            
-        </div>
-        
-    </nav>
-    
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="index.html" class="menu-item">Home</a></li>
+                <li><a href="mythology.html" class="menu-item">Mitologia</a></li>
+                <li><a href="reality.html" class="menu-item">Realidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--end header menu-->
+
 <section class="main-section">
     <h1 class="main-text"><br>BOAS-VINDAS AO MUNDO NÓRDICO!</h1>
 </section>
@@ -125,5 +85,6 @@
     </form>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>

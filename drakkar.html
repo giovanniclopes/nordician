@@ -13,59 +13,25 @@
 <body>
     <div class="bg-image"></div>
 
-<nav>
-    <div class="nav-menu">
-
-        <a href="index.html" id="checked">
-            Home
+<!--header menu-->
+    <header id="header">
+        <a href="" id="logo">
+            <img src="nordician-logo1.png" id="logo-image" alt="Logo Nordician">
         </a>
-        
-        <div class="dropdown">
-        <button class="dropbtn" onclick="myFunction()">Mitologia
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-conteudo" id="myDropdown">
-              
-            <a href="kingdoms.html">
-                Reinos
-            </a>
-            <a href="beings.html">
-                Seres
-            </a>
-            <a href="gods.html">
-                Deuses
-            </a>
-            <a href="mythcurios.html">
-                Curiosidades
-            </a>
+        <nav id="nav">
+            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
 
-          </div>
-        </div>
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="index.html" class="menu-item">Home</a></li>
+                <li><a href="mythology.html" class="menu-item">Mitologia</a></li>
+                <li><a href="reality.html" class="menu-item">Realidade</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div class="dropdown2">
-            <button class="dropbtn2" onclick="myFunction2()">Realidade
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-conteudo2" id="myDropdown2">
-                  
-                <a href="places.html">
-                    Lugares
-                </a>
-                <a href="professions.html">
-                    Profissões
-                </a>
-                <a href="people.html">
-                    Pessoas
-                </a>
-                <a href="realcurios.html">
-                    Curiosidades
-                </a>
-
-          </div>
-        </div>
-
-    </div>
-</nav>
+    <!--end header menu-->
 
 <img src="bc-drakkar.jpg" class="post-img" alt="Imagem de Drakkar">
 

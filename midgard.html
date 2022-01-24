@@ -14,63 +14,25 @@
 <body>
     <div class="bg-image"></div>
 
-    <nav>
-        <div class="nav-menu">
-    
-            <img src="viking-ico.png" id="logo-menu" alt="Logo do nav-menu">
-    
-            <a href="index.html" id="checked">
-                Home
-            </a>
-            
-            <div class="dropdown2">
-                <button class="dropbtn2" onclick="myFunction2()">Realidade
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                  <div class="dropdown-conteudo2" id="myDropdown2">
-                      
-                    <a href="places.html">
-                        Lugares
-                    </a>
-                    <a href="professions.html">
-                        Profissões
-                    </a>
-                    <a href="people.html">
-                        Pessoas
-                    </a>
-                    <a href="realcurios.html">
-                        Curiosidades
-                    </a>
-        
-                  </div>
-            </div>
-    
-    
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunction()">Mitologia
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                         <div class="dropdown-conteudo" id="myDropdown">
-                          
-                        <a href="kingdoms.html">
-                            Reinos
-                        </a>
-                        <a href="beings.html">
-                            Seres
-                        </a>
-                        <a href="gods.html">
-                            Deuses
-                        </a>
-                        <a href="mythcurios.html">
-                            Curiosidades
-                        </a>
-            
-                        </div>
-                </div> 
-            
-        </div>
-        
-    </nav>
+    <!--header menu-->
+    <header id="header">
+        <a href="" id="logo">
+            <img src="nordician-logo1.png" id="logo-image" alt="Logo Nordician">
+        </a>
+        <nav id="nav">
+            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="index.html" class="menu-item">Home</a></li>
+                <li><a href="mythology.html" class="menu-item">Mitologia</a></li>
+                <li><a href="reality.html" class="menu-item">Realidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--end header menu-->
 
 <img src="bc-midgard.jpg" class="post-img" alt="Imagem de Midgard">
 

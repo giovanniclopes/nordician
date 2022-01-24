@@ -230,9 +230,11 @@ div.main-text, p.main-text1 {
     display: block;
     border-top: 2px solid;
     border-radius: 200px;
-    width: 500px;
-    margin: 50px auto;
+    width: 50%;
+    margin: 40px auto;
 }
+
+
 
 div.div-games {
   display: flex;
@@ -497,7 +499,7 @@ p.thanks-text {
     display: inline-block;
     align-items: center;
     justify-content: center;
-  
+    margin:-200px 20px 30px 27px;  
   }
 }
 

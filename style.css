@@ -163,7 +163,7 @@ a:hover {
  /*end menu*/
 
 .main-section {
-    margin-top: -83px;
+    margin-top: -84px;
     z-index: 1;
     background-image: url(div-image1.png);
     height: 550px;
@@ -173,16 +173,19 @@ a:hover {
 }
 
 .main-text {
-    padding-top: 80px;
-    font-size: 100px;
-    font-family: Nordica;
+    padding-top: 70px;
     text-align: center;
     color: #dfc8ac;
 }
 
+.main-text-1 {
+  padding-top: 70px;
+  font: bold 100px 'Nordica', sans-serif;
+}
+
 @media only screen and (max-width: 600px) {
   .main-section {
-    margin-top: -45px;
+    margin-top: -55px;
     z-index: 1;
     background-image: url(div-image1.png);
     height: 450px;
@@ -191,27 +194,51 @@ a:hover {
     text-align: center;
   }
 
-  .main-text {
+  .main-text-1 {
     font-size:55px;
   }
 }
 
 div.main-text, p.main-text1 {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Nordica;
+    font-size: 25px;
+    line-height: 50px;
+    word-spacing: 8px;
+    font-weight: 200;
+    color: #d8cbbb;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  div.main-text, p.main-text1 {
+    margin-left: 7%;
+    margin-right: 5%;
     font-family: Nordica;
     font-size: 25px;
     line-height: 45px;
     word-spacing: 5px;
     font-weight: 200;
     color: #d8cbbb;
+    text-align: left;
+  }
+}
+
+#line-text-game {
+    color: #dfc8ac;
+    display: block;
+    border-top: 2px solid;
+    border-radius: 200px;
+    width: 500px;
+    margin: 50px auto;
 }
 
 div.div-games {
   display: flex;
-  margin: 100px 10px auto 150px;
   align-items: center;
+  justify-content: center;
+  gap: 25px;
   
 }
 
@@ -219,15 +246,11 @@ div.games {
   text-align: center;
   font-family: Nordica;
   font-size: 35px;
-  margin: 20px 10px 60px 20px;
+  margin: 20px 0px 60px 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  div.games {
-    position: relative;
-    right: 130px;
-    bottom: 90px
-  }
+#games-image {
+  padding-right: 190px;
 }
 
 div.games> p {
@@ -236,7 +259,7 @@ div.games> p {
   width: 300px;
 }
 
-div.games>a> button {
+div.games> a > button {
   padding: 10px 15px 33px 15px;
   cursor: pointer;
   width: 258px;
@@ -245,7 +268,7 @@ div.games>a> button {
   font-size: 20px;
   font-weight: bolder;
   color: rgb(207, 207, 207);
-  border: 2px solid #202020;
+  border: 0px;
   border-radius: 10px;
   background-color: #D42221;
 }
@@ -255,10 +278,8 @@ div.games>a> button:hover {
 }
 
 div.games2>img {
-  margin-left: 200px;
   border: none;
-  width: 350px;
-  margin-top: 1px;
+  width: 345px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -446,18 +467,14 @@ p.thanks-text {
 /* games page */
 
 .main-section-games {
-  position: relative;
-  bottom: 240px;
-  background: url(bc-games-section.png) center;
+  margin-top: -180px;
   height: 600px;
   opacity: 100%;
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .main-section-games {
-    width: auto;
-  }
+.main-text {
+  font-size: 75px;
 }
 
 .games-blocks {
@@ -468,7 +485,7 @@ p.thanks-text {
 @media only screen and (max-width: 600px) {
   .games-blocks {
     display: inline-block;
-    margin:-200px 0px 30px 10px;
+    margin:-290px 0px 30px 10px;
   }
 }
 

@@ -285,17 +285,27 @@ div.games2>img {
 }
 
 section#primeiros-textos {
-    margin: auto 10px auto 10px;
     word-spacing: 7px;
     text-align: center;
     color: #b8ad94;
     font-family: Nordica, Arial, sans-serif;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 200;
+    margin: auto 50px auto 50px;
     padding-bottom: 50px;
 }
 
+@media (max-width: 600px) {
+  section#primeiros-textos {
+    margin: auto 15px auto 15px;
+    font-size: 24px;
+    word-spacing: 5px;
+    text-indent: 5px;
+  }
+}
+
 section#primeiros-textos>h1 {
+    font-family: Mjolnir, Arial, sans-serif;
     font-size: 50px;
     color: #e1b64d;
 }
@@ -614,3 +624,157 @@ p.thanks-text {
   text-align: center;
   font: normal 25px 'Nordica', sans-serif;
 }
+
+/* mythology section */
+
+.main-section-mythology {
+  height: 500px;
+  opacity: 100%;
+  text-align: center;
+}
+
+.main-text-mythology {
+  margin-top: 0;
+  font: normal 70px 'Nordica', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-text-mythology {
+    font: normal 80px 'Nordica', sans-serif;  
+  }
+}
+
+.mythology-blocks {
+  display: inline-flex;
+  margin:-300px 20px 30px 45px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+@media only screen and (max-width: 750px) {
+  .mythology-blocks {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin:-200px auto 30px auto;
+    padding-left: 20px;
+  }
+}
+
+.link-all-norse {
+  color: #b8ad94;
+  text-decoration: none;
+}
+
+.realms {
+  background-color: #202020;
+  width: 380px;
+  height: 430px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Mjolnir, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .realms {
+    font-size: 18px;
+    width: 370px;
+    height: 410px;
+  }
+}
+
+.realms-image {
+  width: 360px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+
+.beings {
+  background-color: #202020;
+  width: 380px;
+  height: 430px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Mjolnir, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .beings {
+    font-size: 18px;
+    width: 370px;
+    height: 410px;
+  }
+}
+
+.beings-image {
+  width: 360px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+.gods {
+  background-color: #202020;
+  width: 380px;
+  height: 430px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Mjolnir, sans-serif;
+  font-weight: normal;
+  color: #b8ad94;
+}
+
+@media only screen and (max-width: 600px) {
+  .gods {
+    font-size: 18px;
+    width: 370px;
+    height: 410px;
+  }
+}
+
+.gods-image {
+  width: 360px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+  .realms-btn, .beings-btn, .gods-btn {
+    margin-top: 10px;
+    padding: 15px 15px 40px 15px;
+    cursor: pointer;
+    width: 258px;
+    height: 35px;
+    font-family: Nordica, sans-serif;
+    font-size: 23px;
+    color: #dfdfdf;
+    border: 2px solid #202020;
+    border-radius: 10px;
+    background-color: #D42221;
+  }
+  
+  .realms-btn:hover, .beings-btn:hover, .gods-btn:hover {
+    filter: brightness(70%);
+    border: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .realms-btn, .beings-btn, .gods-btn {
+      padding: 20px 20px 45px 20px;
+      border-radius: 20px;
+    }
+  }

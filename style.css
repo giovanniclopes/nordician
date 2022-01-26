@@ -177,7 +177,7 @@ a:hover {
   font: bold 100px 'Nordica', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .main-section {
     margin-top: -55px;
     z-index: 1;
@@ -205,7 +205,7 @@ div.main-text, p.main-text1 {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   div.main-text, p.main-text1 {
     margin-left: 7%;
     margin-right: 5%;
@@ -278,7 +278,7 @@ div.games2>img {
   width: 345px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   div.games2>img {
     display: none;
   }
@@ -403,7 +403,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .post-img {
     margin: 100px auto 10px 15px;
     width: 90%;
@@ -483,7 +483,7 @@ p.thanks-text {
   font: normal 110px 'Nordica', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .main-text-game {
     padding-top: 100px;
     font: normal 80px 'Nordica', sans-serif;  
@@ -498,7 +498,7 @@ p.thanks-text {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .games-blocks {
     display: inline-block;
     align-items: center;
@@ -520,7 +520,7 @@ p.thanks-text {
   color: #b8ad94;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .ps4-games {
     width: 370px;
     height: 410px;
@@ -554,7 +554,7 @@ p.thanks-text {
   border: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .ps4-btn, .xbox-btn, .pc-btn {
     padding: 15px 20px 38px 20px;
   }
@@ -572,7 +572,7 @@ p.thanks-text {
   color: #b8ad94;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .xbox-games {
     width: 370px;
     height: 410px;
@@ -598,7 +598,7 @@ p.thanks-text {
   color: #b8ad94;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .pc-games {
     width: 370px;
     height: 410px;
@@ -638,7 +638,7 @@ p.thanks-text {
   font: normal 70px 'Nordica', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .main-text-mythology {
     font: normal 80px 'Nordica', sans-serif;  
   }
@@ -681,7 +681,7 @@ p.thanks-text {
   color: #b8ad94;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .realms {
     font-size: 18px;
     width: 370px;
@@ -710,7 +710,7 @@ p.thanks-text {
   color: #b8ad94;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .beings {
     font-size: 18px;
     width: 370px;
@@ -738,7 +738,7 @@ p.thanks-text {
   color: #b8ad94;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .gods {
     font-size: 18px;
     width: 370px;
@@ -772,7 +772,7 @@ p.thanks-text {
     border: none;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     .realms-btn, .beings-btn, .gods-btn {
       padding: 20px 20px 45px 20px;
       border-radius: 20px;

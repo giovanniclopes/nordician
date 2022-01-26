@@ -30,7 +30,7 @@ html, body {
  /*menu*/
 
 .menu-item {
-    color: white;
+    color: #FCF7F1;
     text-decoration: none;
 }
 
@@ -46,11 +46,11 @@ a:hover {
 #header {
     box-sizing: border-box;
     height: 100px;
-    padding: 10px;
+    padding: 12px 50px 12px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to right,#1D0F00, #131313);
+    background: linear-gradient( to left,#1D0F00, #160b00, #000000);
 }
 
 #menu {
@@ -172,12 +172,6 @@ a:hover {
     text-align: center;
 }
 
-.main-text {
-    padding-top: 70px;
-    text-align: center;
-    color: #dfc8ac;
-}
-
 .main-text-1 {
   padding-top: 70px;
   font: bold 100px 'Nordica', sans-serif;
@@ -207,7 +201,7 @@ div.main-text, p.main-text1 {
     line-height: 50px;
     word-spacing: 8px;
     font-weight: 200;
-    color: #d8cbbb;
+    color: #FCF7F1;
     text-align: center;
 }
 
@@ -499,7 +493,8 @@ p.thanks-text {
     display: inline-block;
     align-items: center;
     justify-content: center;
-    margin:-200px auto 30px auto;  
+    margin:-200px auto 30px auto;
+    padding-left: 20px;
   }
 }
 

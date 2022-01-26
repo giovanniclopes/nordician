@@ -102,9 +102,9 @@ a:hover {
         display: block;
         position: absolute;
         width: 100%;
-        top: 88px;
+        top: 85px;
         right: 0px;
-        background: #131313;
+        background: linear-gradient( 20deg, #080808, #1b140e);
         border-radius: 5px;
         transition: .6s;
         z-index: 1000;
@@ -113,17 +113,17 @@ a:hover {
         overflow-y: hidden;
     }
     #nav.active #menu {
-        height: calc(100vh - 50vh);
+        height: calc(100vh - 40vh);
         visibility: visible;
         overflow-y: auto;
     }
     #menu a {
-        padding: 20px 0;
+        padding: 25px 0;
         margin: 0 20px;
         border-bottom: 2px solid rgba(0, 0, 0, .10);
     }
     #btn-mobile {
-        color: #fffcf8;
+        color: #d8cbbb;
         display: flex;
         padding: 10px 20px;
         font-size: 18px;
@@ -133,7 +133,7 @@ a:hover {
         gap: 10px;
     }
     #hamburguer {
-        color: #fffcf8;
+        color: #c9bdae;
         display: block;
         border-top: 2px solid;
         width: 20px;
@@ -625,37 +625,29 @@ p.thanks-text {
 /* mythology section */
 
 .main-section-mythology {
-  height: 500px;
   opacity: 100%;
+  padding-bottom: 50px;
   text-align: center;
 }
 
 .main-text-mythology {
-  margin-top: 0;
-  font: normal 70px 'Nordica', sans-serif;
+  font: normal 60px 'Nordica', sans-serif;
+  line-height: 10px;
 }
 
-@media (max-width: 600px) {
-  .main-text-mythology {
-    font: normal 80px 'Nordica', sans-serif;  
-  }
-}
 
 .mythology-blocks {
   display: inline-flex;
-  margin:-300px 20px 30px 45px;
   align-items: center;
   justify-content: center;
 
 }
-
 
 @media only screen and (max-width: 750px) {
   .mythology-blocks {
     display: inline-block;
     align-items: center;
     justify-content: center;
-    margin:-200px auto 30px auto;
     padding-left: 20px;
   }
 }
@@ -688,6 +680,7 @@ p.thanks-text {
 
 .realms-image {
   width: 360px;
+  height: 215px;
   border: none;
   border-radius: 20px;
   padding-top: 30px;
@@ -717,6 +710,7 @@ p.thanks-text {
 
 .beings-image {
   width: 360px;
+  height: 215px;
   border: none;
   border-radius: 20px;
   padding-top: 30px;
@@ -745,6 +739,7 @@ p.thanks-text {
 
 .gods-image {
   width: 360px;
+  height: 215px;
   border: none;
   border-radius: 20px;
   padding-top: 30px;

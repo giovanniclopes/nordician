@@ -91,6 +91,10 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+    #header {
+      padding: 0 10px 0 10px;
+    }
+
     #logo-image {
         width: 70px;
     }    

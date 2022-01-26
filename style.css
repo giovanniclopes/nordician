@@ -113,14 +113,15 @@ a:hover {
         overflow-y: hidden;
     }
     #nav.active #menu {
-        height: calc(100vh - 40vh);
+        height: calc(100vh - 50vh);
         visibility: visible;
         overflow-y: auto;
     }
     #menu a {
         padding: 25px 0;
         margin: 0 20px;
-        border-bottom: 2px solid rgba(0, 0, 0, .10);
+        border-bottom: 2px solid rgba(46, 46, 46, 0.1);
+        border-radius: 5px;
     }
     #btn-mobile {
         color: #d8cbbb;
@@ -183,7 +184,7 @@ a:hover {
 
 @media (max-width: 600px) {
   .main-section {
-    margin-top: -55px;
+    margin-top: -40px;
     z-index: 1;
     background-image: url(div-image1.png);
     height: 450px;

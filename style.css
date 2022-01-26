@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-@charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
-
 
 @font-face {
     font-family: 'Mjolnir';
@@ -17,14 +14,21 @@
 html, body {
     margin: 0;
     padding:0;
-    background: url(bc-viking.png) no-repeat center center fixed;
+    background: url(bg-neutral.png) no-repeat fixed;
     -webkit-background-size: cover;
+    background-color: #131313;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: Mjolnir, Arial, sans-serif;
     font-weight: bold;
     color: #fffcf8;
+  }
+
+@media (max-width: 600px) {
+  html, body {
+    background: url(bg-neutral.png) no-repeat right fixed;
+  }
 }
 
  /*menu*/
@@ -191,7 +195,7 @@ a:hover {
   .main-section {
     margin-top: -40px;
     z-index: 1;
-    background-image: url(div-image1.png);
+    background: url(div-image1.png) no-repeat;
     height: 450px;
     box-sizing:border-box;
     opacity: 100%;

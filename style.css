@@ -177,7 +177,7 @@ a:hover {
   font: bold 100px 'Nordica', sans-serif;
 }
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (max-width: 600px) {
   .main-section {
     margin-top: -55px;
     z-index: 1;
@@ -189,6 +189,7 @@ a:hover {
   }
 
   .main-text-1 {
+    padding: auto 10px auto 10px;
     font-size:55px;
   }
 }

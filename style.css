@@ -54,7 +54,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient( to left,#1D0F00, #160b00, #000000);
+    background: linear-gradient( -90deg,#1D0F00, #130900, #000000);
 }
 
 #menu {

@@ -447,6 +447,11 @@ section.thanks-section>h1 {
   color: #d8cbbb;
 }
 
+@media (max-width: 600px) {
+  section.thanks-section>h1 {
+    font-size: 60px;
+  }
+}
 
 p.thanks-text {
   border-top: 3px solid #d8cbbb;

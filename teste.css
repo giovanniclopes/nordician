@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
 @font-face {
@@ -54,7 +56,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient( -110deg,#1D0F00, #0e0600, #000000);
+    background: linear-gradient( -30deg,#3B3632, #000000, #000000, #000000, #000000);
 }
 
 #menu {
@@ -106,6 +108,7 @@ a:hover {
 @media (max-width: 600px) {
     #header {
       padding: 0 10px 0 10px;
+      background: linear-gradient( -110deg,#1D0F00, #0e0600, #000000);
     }
 
     #logo-image {
@@ -182,9 +185,9 @@ a:hover {
  /*end menu*/
 
 .main-section {
-    margin-top: -84px;
     z-index: 1;
-    background-image: url(div-image1.png);
+    background: url(nordician-div1.jpg) no-repeat;
+    background-size: cover;
     height: 550px;
     box-sizing:border-box;
     opacity: 100%;
@@ -192,15 +195,17 @@ a:hover {
 }
 
 .main-text-1 {
-  padding-top: 70px;
-  font: bold 100px 'Nordica', sans-serif;
+    padding-top: 70px;
+    margin: 0;
+    display: none;
+    font: bold 100px 'Nordica', sans-serif;
 }
 
 @media (max-width: 600px) {
   .main-section {
-    margin-top: -40px;
     z-index: 1;
-    background: url(div-image1.png) no-repeat fixed;
+    background: url(nordician-mobile-div1.jpg) no-repeat;
+    background-size: cover;
     height: 450px;
     box-sizing:border-box;
     opacity: 100%;

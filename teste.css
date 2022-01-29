@@ -67,8 +67,10 @@ html, body {
 }
 
 #menu a {
+    font-family: 'Nordica', sans-serif;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 28px;
+    font-weight: bold;
     display: block;
     padding: 15px;
     color: #dfc8ac;
@@ -90,7 +92,7 @@ html, body {
     background: none repeat scroll 0 0 transparent;
     display: block;
     height: 2px;
-    margin-top: 15px;
+    margin-top: 10px;
     left: 50%;
     background: currentColor;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -137,6 +139,7 @@ html, body {
     }
     #menu a {
         padding: 25px 0;
+        font-size: 25px;
         margin: 0 20px;
         border-bottom: 2px solid rgba(46, 46, 46, 0.1);
         border-radius: 5px;
@@ -188,7 +191,7 @@ html, body {
 
 .main-section {
     z-index: 1;
-    background: url(nordician-div1.jpg) no-repeat;
+    background: url(nordician-div-1.jpg) no-repeat;
     background-size: cover;
     height: 550px;
     box-sizing:border-box;
@@ -209,7 +212,7 @@ html, body {
     left: 60px;
     border: none;
     outline: none;
-    background: linear-gradient( 120deg,#d42221, #d42121a4);
+    background: linear-gradient( 120deg,#d42221, #d42121c2);
     padding: 17px 35px;
     border-radius: 7px;
     font: bold 27px 'Nordica', sans-serif;
